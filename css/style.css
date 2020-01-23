@@ -7,8 +7,20 @@
  */
 
 nav ul a,
-nav .brand-logo {
+nav {
   color: #444;
+}
+
+.brand-logo {
+  background-color: #26a69a;
+  color: white;
+  
+}
+
+#logo-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  
 }
 
 p {
@@ -61,6 +73,7 @@ footer.page-footer {
   margin-left: 50%;
   width: 100%;
   margin-top: 40%;
+  
 }
 
 .pcard {
@@ -75,3 +88,10 @@ footer.page-footer {
   font-weight: bold;
 }
 
+h5 {
+  font-weight: bold;
+}
+
+#tab1, #tab2, #tab3 {
+  height: 350px;
+}
