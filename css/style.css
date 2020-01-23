@@ -11,6 +11,23 @@ nav {
   color: #444;
 }
 
+a:link {
+  color: #6d4446;
+}
+
+a:visited {
+  color: #26a69a;
+}
+
+.brand-logo a:link{
+  color:#FFFFFF;
+}
+
+
+a.brand-logo:visited{
+  color:#FFFFFF;
+}
+
 .brand-logo {
   background-color: #26a69a;
   color: white;
@@ -41,6 +58,107 @@ p {
     width: 100%;
   }
 
+
+.myDiv {
+  position: relative;
+  z-index: 1;
+
+}
+
+.myDiv:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../assets/images/pano-dam.jpg) center center;
+  background-repeat: no-repeat;
+  opacity: .4;
+}
+
+#op-para {
+  opacity: .4;
+}
+
+  .icon-block {
+    padding: 0 15px;
+    padding-top: 10px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
+  
+  .intro {
+    margin-left: 50%;
+    width: 100%;
+    margin-top: 40%;
+    
+  }
+
+  .about {
+    color: black;
+    text-align: start;
+    /* margin: 10px; */
+      /* text-indent: 50px; */
+      padding-bottom: 15px;
+ 
+  }
+
+  /* .about-card {
+    width: 90%;
+  } */
+
+  #about-img {
+    /* padding: 10px; */
+    width: 250px;
+    height: auto;
+    float: left; 
+    margin: 20px;
+    
+  }
+
+  #about-title {
+    text-align: left;
+  }
+
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .pcard {
+    font-size: 17px;
+  }
+  
+  #download-button {
+    margin-bottom: 5%;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  #tab1, #tab2, #tab3 {
+    height: 350px;
+  }
+
+  .about-img {
+    height: 50%;
+    width: auto;
+  }
+  
+
+  /* Media Queries */
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -57,41 +175,4 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-  padding-top: 10px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
 
-footer.page-footer {
-  margin: 0;
-}
-
-.intro {
-  margin-left: 50%;
-  width: 100%;
-  margin-top: 40%;
-  
-}
-
-.pcard {
-  font-size: 17px;
-}
-
-#download-button {
-  margin-bottom: 5%;
-}
-
-.header {
-  font-weight: bold;
-}
-
-h5 {
-  font-weight: bold;
-}
-
-#tab1, #tab2, #tab3 {
-  height: 350px;
-}
