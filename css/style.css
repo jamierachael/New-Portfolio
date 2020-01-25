@@ -16,7 +16,7 @@ a:link {
 }
 
 a:visited {
-  color: #26a69a;
+  color: #6d4446;
 }
 
 a.brand-logo:link{
@@ -76,27 +76,6 @@ p {
   }
 
 
-/* .myDiv {
-  position: relative;
-  z-index: 1;
-
-}
-
-.myDiv:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: url(../assets/images/pano-dam.jpg) center center;
-  background-repeat: no-repeat;
-  opacity: .4;
-} */
-
-/* Opacity styling for parallax photos*/
-
 #op-para {
   opacity: .5;
 }
@@ -112,10 +91,9 @@ p {
   .icon-block-port {
     padding: 0 10px;
     padding-top: 10px;
-    /* font-size: inherit; */
+    
   }
  
-  
   footer.page-footer {
     margin: 0;
   }
@@ -130,14 +108,12 @@ p {
   .about {
     color: black;
     text-align: start;
-    /* margin: 10px; */
-      /* text-indent: 50px; */
       padding-bottom: 15px;
  
   }
 
   #about-img {
-    /* padding: 10px; */
+
     width: 250px;
     height: auto;
     float: left; 
@@ -210,7 +186,60 @@ p {
  
 }
 
+ li img {
+   
+  width: 70%;
+    margin-bottom: 5px;
+ } 
 
+ .list {
+  margin-bottom: 15px;
+ }
+
+ #list-card{ 
+   width: 70%;
+   margin-left: 16%;
+ }
+
+ .contact-card {
+   width: 60%;
+   margin-left: 20%;
+ }
+ 
+ .ccard {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.border {
+  border: 1px solid #26a69a;
+}
+
+.contact {
+
+  color: black;
+  text-align: start;
+  font-size: 17px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pres {
+  font-size: medium;
+  /* text-align: center; */
+}
+
+.fa-print {
+  padding: 5px 0;
+  margin-left: 3%;
+}
+/* .print {
+  float: right;
+  /* padding-bottom: 110px; */
+/* } */ 
   /* Media Queries */
 
 @media only screen and (max-width : 992px) {
