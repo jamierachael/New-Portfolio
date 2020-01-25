@@ -151,6 +151,7 @@ p {
 
   #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
     height: 300px;
+    width: 300px;
   }
 
   .tab3P {
@@ -179,7 +180,7 @@ p {
 }
 
 .port {
-  width: 300px;
+  /* width: 300px; */
   height: 275px;
   position: absolute; 
   z-index: 0;
