@@ -129,8 +129,9 @@ p {
     margin-left: 10px;
     margin-right: 10px;
   }
-  p, .pcard {
-    font-size: 17px;
+  .card-content {
+    font-size: medium;
+    margin: 10px;
   }
   
   #download-button {
@@ -148,6 +149,12 @@ p {
   .start {
     height: 350px;
     width: auto;
+  }
+
+  p {
+
+    font-size: medium;
+
   }
 
   #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
