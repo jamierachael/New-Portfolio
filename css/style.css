@@ -145,7 +145,7 @@ p {
     font-weight: bold;
   }
   
-  #tab1, #tab2, #tab3 {
+  .start {
     height: 350px;
     width: auto;
   }
