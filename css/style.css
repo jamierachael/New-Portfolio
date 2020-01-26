@@ -148,7 +148,7 @@ a.brand-logo-btn:visited{
   }
   
   .start {
-    height: 375px;
+    height: 350px;
     width: auto;
   }
 
@@ -247,24 +247,17 @@ a.brand-logo-btn:visited{
     padding: 10px 0;
     margin: 0 5px;
     
-
-    
-}
-
-.pres {
-  /* font-size: medium; */
-  /* text-align: center; */
 }
 
 .fa-print {
   padding: 5px 0;
   margin-left: 3%;
 }
-/* .print {
-  float: right;
-  /* padding-bottom: 110px; */
-/* } */ 
-  /* Media Queries */
+
+.card-action {
+  font-size: medium;
+  margin-top: 10px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
