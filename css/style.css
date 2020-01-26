@@ -147,6 +147,7 @@ p {
   
   #tab1, #tab2, #tab3 {
     height: 350px;
+    width: auto;
   }
 
   #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
