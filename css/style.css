@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+ body {
+  font-size: 100%;
+}
+
 nav ul a,
 nav {
   color: #444;
@@ -57,9 +61,6 @@ a.brand-logo-btn:visited{
   
 }
 
-p {
-  line-height: 2rem;
-}
 
 .sidenav-trigger {
   color: #26a69a;
@@ -130,7 +131,7 @@ p {
     margin-right: 10px;
   }
   .card-content {
-    font-size: medium;
+    /* font-size: medium; */
     margin: 10px;
   }
   
@@ -147,15 +148,17 @@ p {
   }
   
   .start {
-    height: 350px;
+    height: 375px;
     width: auto;
   }
 
   p {
 
-    font-size: medium;
+    font-size: large;
+      line-height: 2rem;
+    }
 
-  }
+
 
   #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
     height: 300px;
@@ -241,7 +244,7 @@ p {
 
   color: black;
   text-align: start;
-  font-size: 1em;
+  /* font-size: 1em; */
     padding-bottom: 15px;
     
     /* padding-left: 5px;
@@ -250,7 +253,7 @@ p {
 }
 
 .pres {
-  font-size: medium;
+  /* font-size: medium; */
   /* text-align: center; */
 }
 
