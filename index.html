@@ -72,8 +72,11 @@
           <!-- End card copy paste-->
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button"
+          <!-- <div id="introduction" class="section scrollspy"> -->
+
+          <a href="#introduction" id="download-button"
             class="btn-large waves-effect waves-light teal lighten-1 brand-logo-btn">Get Started</a>
+          <!-- </div> -->
         </div>
         <br><br>
 
@@ -88,28 +91,29 @@
     <div class="section">
 
       <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="card" id="tab1">
-            <div class="icon-block">
+      <div id="introduction" class="section scrollspy">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card" id="tab1">
+              <div class="icon-block">
+                <h2 class="center brown-text"><a href="about.html"><i class="fas fa-user-alt"></i></h2>
+                <span class="card-title">
+                  <h5 class="center">About
+                    </a></h5>
 
-              <h2 class="center brown-text"><a href="about.html"><i class="fas fa-user-alt"></i></h2>
-              <span class="card-title">
-                <h5 class="center">About
-                  </a></h5>
-
-              </span>
-              <div class="card-content">
-                <p class="light">Learn a little about my background and experience, and what I can offer your
-                  company or
-                  business.</p>
+                </span>
+                <div class="card-content">
+                  <p class="light">Learn a little about my background and experience, and what I can offer your
+                    company or
+                    business.</p>
+                </div>
+                </a>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col s12 m4">
-          <!-- <div class="icon-block">
+          <div class="col s12 m4">
+            <!-- <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
             <h5 class="center">User Experience Focused</h5>
 
@@ -117,24 +121,24 @@
               that incorporates components and animations that provide more feedback to users. Additionally, a single
               underlying responsive system across all platforms allow for a more unified user experience.</p>
           </div> -->
-          <!-- Start Card-->
-          <div class="card" id="tab2">
-            <div class="icon-block">
-              <h2 class="center brown-text"><a href="portfolio.html"><i class="far fa-images"></i></h2>
-              <span class="card-title">
-                <h5 class="center">Portfolio</a></h5>
-              </span>
-              <div class="card-content">
-                <p class="light">Feel free to view and demonstrate projects and applications I've developed or
-                  collaborated on.</p>
+            <!-- Start Card-->
+            <div class="card" id="tab2">
+              <div class="icon-block">
+                <h2 class="center brown-text"><a href="portfolio.html"><i class="far fa-images"></i></h2>
+                <span class="card-title">
+                  <h5 class="center">Portfolio</a></h5>
+                </span>
+                <div class="card-content">
+                  <p class="light">Feel free to view and demonstrate projects and applications I've developed or
+                    collaborated on.</p>
+                </div>
               </div>
             </div>
+            <!-- End Card-->
           </div>
-          <!-- End Card-->
-        </div>
 
-        <div class="col s12 m4">
-          <!-- <div class="icon-block">
+          <div class="col s12 m4">
+            <!-- <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Easy to work with</h5>
 
@@ -142,26 +146,27 @@
               get started. We are also always open to feedback and can answer any questions a user may have about
               Materialize.</p>
           </div> -->
-          <!-- Start Card -->
-          <div class="card" id="tab3">
-            <div class="icon-block">
-              <h2 class="center brown-text"><a href="contact.html"><i class="far fa-address-book"></i></h2>
-              <span class="card-title">
-                <h5 class="center">Contact</a></h5>
+            <!-- Start Card -->
+            <div class="card" id="tab3">
+              <div class="icon-block">
+                <h2 class="center brown-text"><a href="contact.html"><i class="far fa-address-book"></i></h2>
+                <span class="card-title">
+                  <h5 class="center">Contact</a></h5>
 
-              </span>
-              <div class="card-content">
-                <p class="light">I am interested in connecting with potential employers, clients and professionals in my
-                  field, and learning about new opportunites.</p>
-                <!-- I am interested in learning about new opportunities and providing support in web development, social
+                </span>
+                <div class="card-content">
+                  <p class="light">I am interested in connecting with potential employers, clients and professionals in
+                    my
+                    field, and learning about new opportunites.</p>
+                  <!-- I am interested in learning about new opportunities and providing support in web development, social
                   media and administrative support. -->
+                </div>
               </div>
             </div>
+            <!-- End Card -->
           </div>
-          <!-- End Card -->
         </div>
       </div>
-
     </div>
   </div>
 
@@ -254,6 +259,19 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.scrollspy');
+        var instances = M.ScrollSpy.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function () {
+        $('.scrollspy').scrollSpy();
+      });
+    </script>
 
 </body>
 
